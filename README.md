@@ -10,7 +10,7 @@ _40 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://liepsneletech.github.io/7-spaceman/
+Site published at: liepsneletech.github.io/9-coming-soon/
 
 Design: https://dribbble.com/shots/5964475/attachments/5964475-404-Lost-in-Space
 
