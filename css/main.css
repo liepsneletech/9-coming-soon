@@ -1,0 +1,38 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  width: 800px;
+  margin-left: calc((100% - 800px) / 2);
+}
+
+.hero,
+.main,
+.footer,
+.time-box {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+}
+
+.time-box {
+  gap: 40px;
+}
+
+.hero-bg {
+  background-image: url("http://localhost:4009/assets/img/bg.png");
+  background-size: cover;
+}
