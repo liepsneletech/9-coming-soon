@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="container-fluid hero-bg">
-      <header class="hero container">
+    <div class="hero-bg container-fluid">
+      <header class="logo-box container">
         <img src="./assets/img/logo.png" alt="logo" class="logo" />
       </header>
-      <main class="container">
+
+      <div class="container">
         <h1 class="main-title">Coming soon</h1>
-        <p>
-          An awesome new company for web resources is coming very soon. Enter
-          your email to request an early invitation!
-        </p>
+        <div class="hero-description-box">
+          <p class="hero-description">
+            An awesome new company for web resources is coming very soon. Enter
+            your email to request an early invitation!
+          </p>
+        </div>
         <div class="time-box">
           <div class="time-item">
             <div class="time-number">432</div>
@@ -36,10 +45,64 @@
             <div class="time-text">seconds</div>
           </div>
         </div>
-        <input type="text" />
-        <input type="submit" />
-      </main>
+        <form class="subscribe">
+          <div class="subscribe-row">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Type your email"
+              class="email-input"
+            />
+          </div>
+          <div class="subscribe-row">
+            <button type="submit" class="btn btn-pink" />Subscribe now
+          </div>
+        </form>
+      </div>
     </div>
+
+    <section class="section-info container">
+      <div class="left-column">
+        <h2 class="subtitle">About startup</h2>
+        <p class="info-description">
+          Matrox material design multi-purpose html template. It comes with huge
+          content and background variants.
+          <a href="#" class="active-link">Matrox</a> is coming very soon. We are
+          nearly there.
+        </p>
+        <progress id="file" max="100" value="90" class="progress-bar">
+          70%
+        </progress>
+        <progress id="file" max="100" value="86" class="progress-bar">
+          70%
+        </progress>
+        <progress id="file" max="100" value="86" class="progress-bar">
+          70%
+        </progress>
+      </div>
+      <div class="right-column">
+        <h2 class="subtitle">Have any question?</h2>
+        <p class="info-description">
+          You can use contact form below or contact us via e-mail at:
+          <a href="mailto:trendytheme.net @gmail.com" class="active-email"
+            >trendytheme.net@gmail.com</a
+          >
+          . Contact form is fully working and very easy to customize.
+        </p>
+        <form action="contact-us">
+          <input type="text" placeholder="Name" class="input-name" />
+          <input type="email" placeholder="Email" class="input-email" />
+          <textarea
+            class="input-message"
+            cols="30"
+            rows="1"
+            placeholder="Message"
+          ></textarea>
+          <button class="btn btn-pink">Send message</button>
+        </form>
+      </div>
+    </section>
     <footer class="container"></footer>
   </body>
 </html>
