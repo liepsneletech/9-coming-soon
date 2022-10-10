@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.row {
+  float: left;
+  width: 1000px;
+  display: inline-block;
+  margin-left: calc(50% - 500px);
+  background-color: yellow;
+}
+.row-short {
+  width: 600px;
+  margin-left: calc(50% - 300px);
+  float: left;
+  background-color: pink;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+}
