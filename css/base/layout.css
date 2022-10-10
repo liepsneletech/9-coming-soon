@@ -1,12 +1,10 @@
 .container {
-  float: left;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .row {
-  float: left;
   width: 1000px;
   display: inline-block;
   margin-left: calc(50% - 500px);
