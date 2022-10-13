@@ -17,7 +17,6 @@ body {
 .row-short {
   width: 600px;
   margin: 0 calc(50% - 300px);
-  float: left;
 }
 
 .main-content {
