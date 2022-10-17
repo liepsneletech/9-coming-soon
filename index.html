@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coming soon</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- base style -->
     <link rel="stylesheet" href="./css/base/base.css" />
     <link rel="stylesheet" href="./css/base/layout.css" />
-    <!-- base style -->
+    <!-- 3rd party style -->
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css" />
     <!-- components -->
     <link rel="stylesheet" href="./css/components/button.css" />
@@ -15,14 +23,15 @@
     <link rel="stylesheet" href="./css/components/form.css" />
     <link rel="stylesheet" href="./css/components/mouse.css" />
     <link rel="stylesheet" href="./css/components/progress-bar.css" />
+    <link rel="stylesheet" href="./css/components/socials.css" />
     <!-- custom style -->
     <link rel="stylesheet" href="./css/pages/home.css" />
   </head>
   <body>
     <main>
-      <section class="container hero bg-primary">
+      <section class="container hero bg-primary" id="hero">
         <div class="row-short">
-          <img src="./img/logo.png" alt="logo" />
+          <img src="./img/logo.png" alt="logo" class="logo" />
           <h1 class="main-title">Coming soon</h1>
           <p class="main-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ea
@@ -30,9 +39,31 @@
             quisquam rerum voluptate animi, dolor id ratione corrupti molestias
             dolores accusamus!
           </p>
-          <div class="clock">CLOCK</div>
+          <div class="clock">
+            <div class="time">
+              <div class="value">432</div>
+              <div class="label">Days</div>
+            </div>
+            <div class="time">
+              <div class="value">09</div>
+              <div class="label">Hours</div>
+            </div>
+            <div class="time">
+              <div class="value">37</div>
+              <div class="label">Minutes</div>
+            </div>
+            <div class="time">
+              <div class="value">39</div>
+              <div class="label">Seconds</div>
+            </div>
+          </div>
+          <form>SUBSCRIBE FORM</form>
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
         </div>
       </section>
+
       <section class="container">
         <div class="row main-content">
           <div class="left-column">
@@ -43,10 +74,44 @@
               expedita, ea autem perspiciatis dolor voluptas aliquid minus
               suscipit et, nemo tempora quas assumenda qui!
             </p>
-            <div>PROGRESS BAR</div>
-            <div>PROGRESS BAR</div>
-            <div>PROGRESS BAR</div>
+
+            <div class="progress-bar">
+              <div class="top">
+                <div class="label">UX design</div>
+                <div class="value">90%</div>
+              </div>
+              <div class="bottom">
+                <div class="progress" style="width: 90%">
+                  <div class="bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="progress-bar">
+              <div class="top">
+                <div class="label">Web design</div>
+                <div class="value">86%</div>
+              </div>
+              <div class="bottom">
+                <div class="progress" style="width: 86%">
+                  <div class="bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="progress-bar">
+              <div class="top">
+                <div class="label">UX design</div>
+                <div class="value">50%</div>
+              </div>
+              <div class="bottom">
+                <div class="progress" style="width: 50%">
+                  <div class="bar"></div>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div class="right-column">
             <h2 class="section-title">Have any question?</h2>
             <p class="section-description">
@@ -63,12 +128,28 @@
     </main>
 
     <footer class="container bg-primary">
-      <div class="row">SOCIALS</div>
+      <div class="row socials">
+        <a href="#" class="icon fa fa-facebook"></a>
+        <a href="#" class="icon fa fa-tumblr"></a>
+        <a href="#" class="icon fa fa-dribbble"></a>
+        <a href="#" class="icon fa fa-linkedin"></a>
+        <a href="#" class="icon fa fa-instagram"></a>
+        <a href="#" class="icon fa fa-rss"></a>
+        <a href="#" class="back-to-top icon fa fa-angle-up"></a>
+      </div>
       <div class="row-short">
-        FOOTER BOTTOM TEXTS Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. At ad harum ea ducimus omnis, incidunt magnam aperiam temporibus!
-        Iusto repudiandae amet, voluptates quis voluptate laudantium eos quasi
-        iste ullam totam?
+        <img src="./img/logo-white.png" alt="Logo" class="logo" />
+        <div class="bottom-trio">
+          <span>Copyright &copy; 2022 <a href="#">Matrox</a></span>
+          <span>All rights reserved</span>
+          <span>Design by <a href="#" target="_blank">TrendyTheme</a></span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+          molestias at saepe sapiente <a href="#">200+</a> excepturi natus ipsum
+          hic! Quae iusto ducimus consectetur, iste, modi, blanditiis enim
+          ratione accusamus quos <a href="#">Matrox</a> corrupti deleniti?
+        </p>
       </div>
     </footer>
   </body>
