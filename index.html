@@ -29,7 +29,7 @@
   </head>
   <body>
     <main>
-      <section class="container hero bg-primary">
+      <section class="container hero bg-primary" id="hero">
         <div class="row-short">
           <img src="./img/logo.png" alt="logo" class="logo" />
           <h1 class="main-title">Coming soon</h1>
@@ -71,9 +71,35 @@
               expedita, ea autem perspiciatis dolor voluptas aliquid minus
               suscipit et, nemo tempora quas assumenda qui!
             </p>
-            <div>PROGRESS BAR</div>
-            <div>PROGRESS BAR</div>
-            <div>PROGRESS BAR</div>
+            <div class="progress-bar">
+              <div class="top">
+                <div class="label">UX design</div>
+                <div class="value">90%</div>
+              </div>
+              <div class="bottom">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="progress-bar">
+              <div class="top">
+                <div class="label">Web design</div>
+                <div class="value">86%</div>
+              </div>
+              <div class="bottom">
+                <div class="progress" style="width: 86%"></div>
+              </div>
+            </div>
+
+            <div class="progress-bar">
+              <div class="top">
+                <div class="label">UX design</div>
+                <div class="value">50%</div>
+              </div>
+              <div class="bottom">
+                <div class="progress" style="width: 50%"></div>
+              </div>
+            </div>
           </div>
           <div class="right-column">
             <h2 class="section-title">Have any question?</h2>
@@ -113,6 +139,9 @@
           ratione accusamus quos <a href="#">Matrox</a> corrupti deleniti?
         </p>
       </div>
+      <a href="#hero" class="back-to-up"
+        ><img src="./img/back-to-top.png" alt="Arrow up"
+      /></a>
     </footer>
   </body>
 </html>
