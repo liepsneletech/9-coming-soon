@@ -10,7 +10,6 @@ body {
 
 .row {
   width: 1000px;
-  display: inline-block;
   margin: 0 calc(50% - 500px);
 }
 
