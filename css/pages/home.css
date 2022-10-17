@@ -86,10 +86,16 @@ footer a:hover {
   display: none;
 }
 
-.back-to-up {
-  position: sticky;
-  top: 0;
-  left: 0;
+.back-to-top {
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  background-color: var(--secondary-color);
+}
+
+footer .back-to-top:hover {
+  background-color: var(--hover-color) !important;
+  color: #fff !important;
 }
 
 @media (max-width: 700px) {
