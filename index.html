@@ -57,7 +57,19 @@
               <div class="label">Seconds</div>
             </div>
           </div>
-          <form>SUBSCRIBE FORM</form>
+          <form class="form">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              class="input"
+              type="email"
+              placeholder="Email"
+              required
+              autocomplete="email"
+            />
+
+            <button class="btn" type="submit">Send message</button>
+          </form>
           <div class="mouse">
             <div class="wheel"></div>
           </div>
@@ -121,7 +133,36 @@
               est quos temporibus, aliquid nam distinctio, amet esse eaque dolor
               dignissimos neque debitis aliquam commodi!
             </p>
-            <form action="">MESSAGE FORM</form>
+            <form class="form">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                class="input"
+                type="text"
+                placeholder="Name"
+                required
+                autocomplete="name"
+              />
+              <label for="email">Email</label>
+              <input
+                id="email"
+                class="input"
+                type="email"
+                placeholder="Email"
+                required
+                autocomplete="email"
+              />
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                class="input"
+                name="message"
+                placeholder="Message"
+                required
+                autocomplete="off"
+              ></textarea>
+              <button class="btn" type="submit">Send message</button>
+            </form>
           </div>
         </div>
       </section>
