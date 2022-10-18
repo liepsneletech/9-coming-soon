@@ -50,6 +50,31 @@
   text-decoration: underline;
 }
 
+@media (min-width: 900px) {
+  .main-content .form > input {
+    width: calc((100% - 20px) / 2);
+  }
+
+  main .form > input:last-of-type {
+    float: right;
+  }
+}
+
+.hero .form > .input {
+  width: 90%;
+  margin: 0 5% 15px;
+  color: #fff;
+  border-color: #fff;
+}
+
+.hero .form > .input::placeholder {
+  color: #fff;
+}
+
+.main-content .form > button {
+  float: right;
+}
+
 footer.container {
   padding-top: 0;
   text-align: center;
@@ -86,18 +111,6 @@ footer a:hover {
   display: none;
 }
 
-.back-to-top {
-  position: absolute;
-  top: -30px;
-  right: -20px;
-  background-color: var(--secondary-color);
-}
-
-footer .back-to-top:hover {
-  background-color: var(--hover-color) !important;
-  color: #fff !important;
-}
-
 @media (max-width: 700px) {
   .bottom-trio {
     flex-direction: column;
@@ -105,4 +118,16 @@ footer .back-to-top:hover {
   .bottom-trio > span::after {
     display: none;
   }
+}
+
+footer .back-to-top.icon {
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  background-color: var(--secondary-color);
+}
+
+footer .back-to-top.icon:hover {
+  background-color: var(--secondary-color-dark);
+  color: #fff;
 }
