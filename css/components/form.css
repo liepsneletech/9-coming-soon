@@ -1,2 +1,45 @@
 .form {
+  display: inline-block;
+  width: 100%;
+}
+
+.form > * {
+  margin-bottom: 20px;
+  font-family: Catamaran, sans-serif;
+}
+
+.form > *:last-child {
+  margin-bottom: 0;
+}
+
+.form label {
+  display: none;
+}
+
+.form .input {
+  width: 100%;
+  padding: 0.5em 0;
+  float: left;
+  font-size: 17px;
+  line-height: 1.5em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0.2em;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.form > textarea {
+  width: 100%;
+  min-height: 100px;
+  height: 150px;
+  max-height: 400px;
+  resize: vertical;
+}
+
+.form *:focus {
+  outline: 1px solid var(--secondary-color);
 }
